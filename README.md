@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://alist.nn.ci"><img height="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
+  <a href="https://43.138.145.65"><img height="100px" alt="logo" src="https://www.cdnjson.com/images/2022/11/06/026A2AC5-2434-4CEB-A27D-87E1ACC60433.png"/></a>
   <p><em>🗂️A file list program that supports multiple storage, powered by Gin and Solidjs.</em></p>
 <div>
   <a href="https://goreportcard.com/report/github.com/alist-org/alist/v3">
@@ -39,7 +39,6 @@
 
 ---
 
-English | [中文](./README_cn.md) | [Contributing](./CONTRIBUTING.md) | [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
 
 ## Features
 
