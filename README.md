@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://43.138.145.65"><img height="100px" alt="logo" src="https://www.cdnjson.com/images/2022/11/06/026A2AC5-2434-4CEB-A27D-87E1ACC60433.png"/></a>
-  <p><em>🗂️A file list program that supports multiple storage, powered by Gin and Solidjs.</em></p>
+  <a href="https:43.138.145.65:5244"><img height="100px" alt="logo" src="https://www.cdnjson.com/images/2022/11/06/026A2AC5-2434-4CEB-A27D-87E1ACC60433.png"/></a>
+  <p><em>🗂一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。</em></p>
 <div>
   <a href="https://goreportcard.com/report/github.com/alist-org/alist/v3">
     <img src="https://goreportcard.com/badge/github.com/alist-org/alist/v3" alt="latest version" />
@@ -31,7 +31,7 @@
   <a href="https://hub.docker.com/r/xhofe/alist">
     <img src="https://img.shields.io/docker/pulls/xhofe/alist?color=%2348BB78&logo=docker&label=pulls" alt="Downloads" />
   </a>
-  <a href="https://alist.nn.ci/guide/sponsor.html">
+  <a href="https://alist.nn.ci/zh/guide/sponsor.html">
     <img src="https://img.shields.io/badge/%24-sponsor-F87171.svg" alt="sponsor" />
   </a>
 </div>
@@ -39,49 +39,48 @@
 
 ---
 
-
 ## Features
 
-- [x] Multiple storage
-    - [x] Local storage
-    - [x] [Aliyundrive](https://www.aliyundrive.com/)
-    - [x] OneDrive / Sharepoint ([global](https://www.office.com/), [cn](https://portal.partner.microsoftonline.cn),de,us)
-    - [x] [189cloud](https://cloud.189.cn) (Personal, Family)
+- [x] 多种存储
+    - [x] 本地存储
+    - [x] [阿里云盘](https://www.aliyundrive.com/)
+    - [x] OneDrive / Sharepoint（[国际版](https://www.office.com/), [世纪互联](https://portal.partner.microsoftonline.cn),de,us）
+    - [x] [天翼云盘](https://cloud.189.cn) (个人云, 家庭云)
     - [x] [GoogleDrive](https://drive.google.com/)
-    - [x] [123pan](https://www.123pan.com/)
+    - [x] [123云盘](https://www.123pan.com/)
     - [x] FTP / SFTP
     - [x] [PikPak](https://www.mypikpak.com/)
-    - [x] [S3](https://aws.amazon.com/s3/)
-    - [x] [UPYUN Storage Service](https://www.upyun.com/products/file-storage)
-    - [x] WebDav(Support OneDrive/SharePoint without API)
-    - [x] Teambition([China](https://www.teambition.com/ ),[International](https://us.teambition.com/ ))
-    - [x] [Mediatrack](https://www.mediatrack.cn/)
-    - [x] [139yun](https://yun.139.com/) (Personal, Family)
-    - [x] [YandexDisk](https://disk.yandex.com/)
-    - [x] [BaiduNetdisk](http://pan.baidu.com/)
-    - [x] [Quark](https://pan.quark.cn)
-    - [x] [Thunder](https://pan.xunlei.com)
-    - [x] [Lanzou](https://www.lanzou.com/)
-    - [x] [Aliyundrive share](https://www.aliyundrive.com/)
-    - [x] [Google photo](https://photos.google.com/)
+    - [x] [S3](https://aws.amazon.com/cn/s3/)
+    - [x] [又拍云对象存储](https://www.upyun.com/products/file-storage)
+    - [x] WebDav(支持无API的OneDrive/SharePoint)
+    - [x] Teambition（[中国](https://www.teambition.com/ )，[国际](https://us.teambition.com/ )）
+    - [x] [分秒帧](https://www.mediatrack.cn/)
+    - [x] [和彩云](https://yun.139.com/) (个人云, 家庭云)
+    - [x] [Yandex.Disk](https://disk.yandex.com/)
+    - [x] [百度网盘](http://pan.baidu.com/)
+    - [x] [夸克网盘](https://pan.quark.cn)
+    - [x] [迅雷网盘](https://pan.xunlei.com)
+    - [x] [蓝奏云](https://www.lanzou.com/)
+    - [x] [阿里云盘分享](https://www.aliyundrive.com/)
+    - [x] [谷歌相册](https://photos.google.com/)
     - [x] [Mega.nz](https://mega.nz)
-    - [x] [Baidu photo](https://photo.baidu.com/)
+    - [x] [一刻相册](https://photo.baidu.com/)
     - [x] SMB
     - [x] [115](https://115.com/)
-- [x] Easy to deploy and out-of-the-box
-- [x] File preview (PDF, markdown, code, plain text, ...)
-- [x] Image preview in gallery mode
-- [x] Video and audio preview, support lyrics and subtitles
-- [x] Office documents preview (docx, pptx, xlsx, ...)
-- [x] `README.md` preview rendering
-- [x] File permalink copy and direct file download
-- [x] Dark mode
-- [x] I18n
-- [x] Protected routes (password protection and authentication)
-- [x] WebDav (see https://alist.nn.ci/guide/webdav.html for details)
-- [x] [Docker Deploy](https://hub.docker.com/r/xhofe/alist)
-- [x] Cloudflare workers proxy
-- [x] File/Folder package download
-- [x] Web upload(Can allow visitors to upload), delete, mkdir, rename, move and copy
-- [x] Offline download
-- [x] Copy files between two storage
+- [x] 部署方便，开箱即用
+- [x] 文件预览（PDF、markdown、代码、纯文本……）
+- [x] 画廊模式下的图像预览
+- [x] 视频和音频预览，支持歌词和字幕
+- [x] Office 文档预览（docx、pptx、xlsx、...）
+- [x] `README.md` 预览渲染
+- [x] 文件永久链接复制和直接文件下载
+- [x] 黑暗模式
+- [x] 国际化
+- [x] 受保护的路由（密码保护和身份验证）
+- [x] WebDav
+- [x] [Docker 部署]
+- [x] Cloudflare workers 中转
+- [x] 文件/文件夹打包下载
+- [x] 网页上传(可以允许访客上传)，删除，新建文件夹，重命名，移动，复制
+- [x] 离线下载
+- [x] 跨存储复制文件
