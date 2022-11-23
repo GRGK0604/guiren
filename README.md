@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https:43.138.145.65:5244"><img height="100px" alt="logo" src="https://www.cdnjson.com/images/2022/11/06/026A2AC5-2434-4CEB-A27D-87E1ACC60433.png"/></a>
-  <p><em>🗂一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。</em></p>
+  <a href="pan.521314.love"><img height="100px" alt="logo" src="https://www.cdnjson.com/images/2022/11/06/026A2AC5-2434-4CEB-A27D-87E1ACC60433.png"/></a>
+  <p><em>一个支持多存储的文件列表程序，使用 Gin 和 Solidjs。</em></p>
 <div>
   <a href="https://goreportcard.com/report/github.com/alist-org/alist/v3">
     <img src="https://goreportcard.com/badge/github.com/alist-org/alist/v3" alt="latest version" />
